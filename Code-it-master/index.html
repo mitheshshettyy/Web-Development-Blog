@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Code.it</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+	<link href="style.css" rel="stylesheet">
+	<style>
+		.images {
+			width: 90px;
+		}
+
+		h2,
+		h3 {
+			display: inline;
+		}
+	</style>
+</head>
+
+<body data-spy="scroll" data-target="#navbarResposive">
+
+	<div id="home">
+
+		<nav class="navbar navbar-expand-md navbar-dark bg-dark justify-content-center fixed-top">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="#">
+					<h1>CODE.it</h1>
+				</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResposive">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarResposive">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item">
+							<a class="nav-link" href="#home">Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#about">About</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#service">Services</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#team">Team</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link disabled" href="#connect">Connect</a>
+						</li>
+						<li class="nav-item">
+							<button id="theme-toggle" class="btn btn-sm btn-outline-light nav-btn theme-btn">
+								<span id="theme-toggle-text">Dark Mode</span>
+							</button>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+
+		<div id="slides" class="carousel slide" data-ride="carousel" data-interval="12000">
+			<ol class="carousel-indicators">
+				<li data-target="#slides" data-slide-to="0" class="active"></li>
+				<li data-target="#slides" data-slide-to="1"></li>
+				<li data-target="#slides" data-slide-to="2"></li>
+			</ol>
+
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<img src="img/technology.jpg">
+					<div class="carousel-caption">
+						<h1 class="display-2">Hello,</h1>
+						<h3>We are Developers, we code it for you.</h3>
+						<a href="#service" class="btn btn-outline-light btn-lg">Services</a>
+						<a href="#about" class="btn btn-primary btn-lg">About Us</a>
+					</div>
+				</div>
+				<div class="carousel-item">
+					<img src="img/computer.jpg">
+				</div>
+				<div class="carousel-item">
+					<img src="img/coding.jpg">
+				</div>
+				<a class="carousel-control-prev" href="#slides" role="button" data-slide="prev">
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="sr-only">Previous</span>
+				</a>
+				<a class="carousel-control-next" href="#slides" role="button" data-slide="next">
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="sr-only">Next</span>
+				</a>
+			</div>
+		</div>
+
+	</div>
+
+	<div id="about">
+
+		<div class="container-fluid padding">
+			<div class="row welcome text-center">
+				<div class="col-12">
+					<h1 class="display-4">What is Web Development?</h1>
+				</div>
+				<hr>
+				<div class="col-12">
+					<p class="lead">Web development encompasses the entire process of creating and maintaining websites.
+						It involves a range of skills, from crafting the visual layout and user interface (UI) to
+						developing the underlying functionality that makes everything work seamlessly. Whether it's a
+						simple static web page or a complex interactive web application, web development brings ideas
+						and information to life on the web.</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="container-fluid padding">
+			<div class="row padding">
+				<div class="col-lg-6">
+					<img src="img/lang.jpeg" class="img-fluid">
+				</div>
+				<div class="col-lg-6">
+					<h2><b>Why is Web Development Necessary?</b></h2>
+					<p>In today's digital age, having a web presence is crucial for individuals and businesses alike.
+						Here are some compelling reasons why web development is so important: </p>
+					<p>Global Reach: A website allows you to connect with a worldwide audience, transcending
+						geographical limitations.</p>
+					<p>Information Dissemination: Websites provide a platform to share information with the world, be it
+						personal or professional.</p>
+					<p>24/7 Availability: Websites are accessible anytime and anywhere, offering an around-the-clock
+						presence.</p>
+					<p>E-Commerce: Web development empowers businesses to create online stores, facilitating secure and
+						convenient transactions.</p>
+					<p>Interactive Communication: Websites can be designed for user interaction, fostering communication
+						and engagement.</p>
+					<br>
+				</div>
+			</div>
+		</div>
+		<hr class="my-4">
+
+	</div>
+
+    <div id="video-embed-area" class="video-embed-container">
+        </div>
+    <h1>Essential Web Development Languages</h1>
+	<p>Web development relies on various programming languages, each playing a specific role:</p>
+
+	<h2 style="display:inline;padding-right:50px;"><b>1. HTML (Hypertext Markup Language)</b></h2> <img src="img/html.png"
+		alt="html" srcset="" class="images">
+	<p>HTML stands for Hyper Text Markup Language
+		HTML is the standard markup language for creating Web pages
+		HTML describes the structure of a Web page
+		HTML consists of a series of elements
+		HTML elements tell the browser how to display the content
+		HTML elements label pieces of content such as "this is a heading", "this is a paragraph", "this is a link",
+		etc.The foundation of web pages, HTML provides the structure and content organization. Think of it as the
+		skeleton of a website, defining the headings, paragraphs, lists, and other elements.</p>
+
+	<p>The foundation of every webpage, HTML provides structure and organization for content. Think of it as the
+		skeleton of a website.
+		It uses tags (written in angle brackets &lt; &gt;) to define different elements on a page, such as headings,
+		paragraphs (&lt;p&gt;), images (&lt;img&gt;), lists (&lt;ul&gt; and &lt;li&gt;), and more.
+		By combining these tags with content, you create the basic structure of your webpage.</p>
+        
+    <p class="tutorial-buttons">
+        <button class="btn btn-primary btn-sm view-on-site-btn" data-video-id="HcOc7P5BMi4" data-lang-name="HTML">
+            <i class="fas fa-play-circle"></i> View on Site
+        </button>
+        <a href="https://youtu.be/HcOc7P5BMi4?si=eq0iZorVv1StEbl9" target="_blank" class="btn btn-danger btn-sm">
+            <i class="fab fa-youtube"></i> Open in New Tab
+        </a>
+    </p>
+    <h3>Example:</h3>
+	<pre style="background-color: #24292e; color: #c9d1d9;">
+<span style="color: #ede7f6;">&lt;!DOCTYPE html&gt;</span>
+<span style="color: #f92c7a;">&lt;html&gt;</span>
+&nbsp;&nbsp;<span style="color: #f92c7a;">&lt;head&gt;</span>
+&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #a5d6a7;">&lt;title&gt;</span> <span style="color: #e0ffe9;">My Website
+</span>  &nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #a5d6a7;">&lt;/title&gt;</span>
+&nbsp;&nbsp;<span style="color: #f92c7a;">&lt;/head&gt;</span>
+&nbsp;&nbsp;<span style="color: #f92c7a;">&lt;body&gt;</span>
+&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #a5d6a7;">&lt;h1&gt;</span> <span style="color: #e0ffe9;">Welcome!</span>&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #a5d6a7;">&lt;/h1&gt;</span>
+&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #a5d6a7;">&lt;p&gt;</span><span style="color: #e0ffe9;">This is my website.</span>  <span style="color: #a5d6a7;">&lt;/p&gt;</span>
+&nbsp;&nbsp;<span style="color: #f92c7a;">&lt;/body&gt;</span>
+<span style="color: #f92c7a;">&lt;/html&gt;</span>
+</pre>
+
+
+
+	<h3>Basic HTML Tags:</h3>
+	<ul>
+		<li><code>&lt;!DOCTYPE html&gt;</code>: Defines the document type as HTML.</li>
+		<li><code>&lt;html&gt;</code>: The root element of an HTML document.</li>
+		<li><code>&lt;head&gt;</code>: Contains information about the document, like the title.</li>
+		<li><code>&lt;title&gt;</code>: Specifies the title displayed in the browser tab.</li>
+		<li><code>&lt;body&gt;</code>: Contains the visible content of the webpage.</li>
+		<li><code>&lt;h1&gt; to &lt;h6&gt;</code>: Define headings of different sizes.</li>
+		<li><code>&lt;p&gt;</code>: Represents a paragraph of text.</li>
+		<li><code>&lt;br&gt;</code>: Inserts a line break.</li>
+		<li><code>&lt;a&gt;</code>: Defines a hyperlink (link to another webpage).</li>
+	</ul>
+
+	<h2 style="display:inline;padding-right:50px;"><b>2. CSS (Cascading Style Sheets)</b></h2><img src="img/css.png" alt="html"
+		srcset="" class="images">
+	<p>CSS stands for Cascading Style Sheets
+		CSS describes how HTML elements are to be displayed on screen, paper, or in other media
+		CSS saves a lot of work. It can control the layout of multiple web pages all at once
+		External stylesheets are stored in CSS files . CSS breathes life into HTML by controlling the appearance and
+		layout of web pages. It defines styles like fonts, colors, backgrounds, and positioning, making websites
+		visually appealing and user-friendly.</p>
+
+	<p>controls the appearance and layout of webpages.
+		It defines styles like fonts, colors, backgrounds, and positioning, making websites visually appealing and
+		user-friendly.
+		CSS is separate from the HTML code, often linked in a &lt;link&gt; tag within the &lt;head&gt; section.</p>
+
+    <p class="tutorial-buttons">
+        <button class="btn btn-primary btn-sm view-on-site-btn" data-video-id="OXGznpKZ_sA" data-lang-name="CSS">
+            <i class="fas fa-play-circle"></i> View on Site
+        </button>
+        <a href="https://youtu.be/OXGznpKZ_sA?si=m6z6iidQrHSTmR6Q" target="_blank" class="btn btn-danger btn-sm">
+            <i class="fab fa-youtube"></i> Open in New Tab
+        </a>
+    </p>
+    <h3>Basic CSS Concepts:</h3>
+	<ul>
+		<li><strong>Selectors:</strong> Target specific elements on the page (e.g., body, h1, &lt;p&gt;).</li>
+		<li><strong>Properties:</strong> Define styles like font-family (font type), color, background-color, padding
+			(spacing around content), and margin (spacing outside content).</li>
+		<li><strong>Values:</strong> Specify the actual values for the properties (e.g., Arial for font, #FF0000 for red
+			color).</li>
+	</ul>
+
+	<h3>Example:</h3>
+	<pre style="background-color: #24292e; color: #c9d1d9; padding: 10px; border-radius: 3px;">
+<span style="color: #e0ffe9;">body </span>&#x7b;<span style="color: #d7ba7d;">font-family:</span> <span style="color: #e0ffe9;">Arial, sans-serif;</span><span style="color: #aaaaaa;"></span><br>
+<span style="color: #e0ffe9;">background-color:</span> <span style="color: #a579bf;">#f0f0f0;</span><span style="color: #aaaaaa;"></span><br>
+&#x7d;<br>
+<span style="color: #e0ffe9;">h1 </span>&#x7b;<span style="color: #d7ba7d;">color:</span> <span style="color: #56b6c2;">#007bff;</span><span style="color: #aaaaaa;"></span><br>
+&#x7d;
+</pre>
+
+
+	<h2 style="display:inline;padding-right:50px;"><b>3. JavaScript (JS)</b></h2><img src="img/js.png" alt="html" srcset=""
+		class="images">
+	<p>Adds interactivity and dynamism to web pages. With JavaScript, you can create animations, dynamic content
+		updates, and form validation. It's commonly used to enhance user experience by making websites more engaging and
+		responsive.</p>
+	<p>Adds interactivity and dynamism to webpages. Imagine a website that changes its content based on user actions
+		(like clicking a button).
+		JavaScript code can be embedded within the HTML or linked as a separate file.
+		It allows for animations, dynamic content updates, form validation, and much more.</p>
+
+    <p class="tutorial-buttons">
+        <button class="btn btn-primary btn-sm view-on-site-btn" data-video-id="a-wVHL0lpb0" data-lang-name="JavaScript">
+            <i class="fas fa-play-circle"></i> View on Site
+        </button>
+        <a href="https://youtu.be/a-wVHL0lpb0?si=ygEhXx8tarR5KCji" target="_blank" class="btn btn-danger btn-sm">
+            <i class="fab fa-youtube"></i> Open in New Tab
+        </a>
+    </p>
+    <h3>Basic JavaScript Concepts:</h3>
+	<ul>
+		<li><strong>Variables:</strong> Store information that can be used throughout the code.</li>
+		<li><strong>Functions:</strong> Reusable blocks of code that perform specific tasks.</li>
+		<li><strong>Events:</strong> User actions like clicks, scrolls, or key presses that trigger JavaScript code.
+		</li>
+		<li><strong>DOM (Document Object Model):</strong> Represents the structure of the webpage, allowing JavaScript
+			to manipulate HTML elements.</li>
+	</ul>
+
+
+	<h3>Example:</h3>
+	<pre style="background-color: #24292e; color: #c9d1d9; padding: 10px; border-radius: 3px;">
+<span style="color: #e0ffe9;">function </span><span style="color: #d7ba7d;">changeHeading</span><span style="color: #aaaaaa;">() </span><span style="color: #aaaaaa;">{</span><br>
+  <span style="color: #e0ffe9;">var </span><span style="color: #d7ba7d;">heading</span> <span style="color: #aaaaaa;">=</span> <span style="color: #e0ffe9;">document.getElementById</span><span style="color: #aaaaaa;">(</span><span style="color: #e0ffe9;">"heading"</span><span style="color: #aaaaaa;">)</span><span style="color: #aaaaaa;">;</span><br>
+  <span style="color: #e0ffe9;">heading.textContent</span> <span style="color: #aaaaaa;">=</span> <span style="color: #a579bf;">"Welcome to a Dynamic Website!"</span><span style="color: #aaaaaa;">;</span><br>
+<span style="color: #aaaaaa;">}</span>
+</pre>
+
+	<h2 style="display:inline;padding-right:50px;"><b>4. PHP (Hypertext Preprocessor)</b></h2><img src="img/php.png" alt="html"
+		srcset="" class="images">
+	<p>A powerful server-side scripting language commonly used for creating dynamic and interactive web pages. PHP code
+		executes on the web server, enabling communication between the website and databases or other server-side
+		resources. PHP often powers content management systems (CMS) like WordPress.</p>
+	<p>A powerful server-side scripting language commonly used for creating dynamic and interactive webpages.
+		PHP code executes on the web server before the HTML content is sent to the browser.
+		It allows for:</p>
+	<ul>
+		<li>Accessing and manipulating databases.</li>
+		<li>Handling user input from forms.</li>
+		<li>Creating dynamic content based on user interaction or server-side data.</li>
+	</ul>
+
+    <p class="tutorial-buttons">
+        <button class="btn btn-primary btn-sm view-on-site-btn" data-video-id="BUCiSSyIGGU" data-lang-name="PHP">
+            <i class="fas fa-play-circle"></i> View on Site
+        </button>
+        <a href="https://youtu.be/BUCiSSyIGGU?si=d71P6fiUooLbmGPl" target="_blank" class="btn btn-danger btn-sm">
+            <i class="fab fa-youtube"></i> Open in New Tab
+        </a>
+    </p>
+    <h3>Basic PHP Concepts:</h3>
+	<ul>
+		<li><strong>Variables:</strong> Similar to JavaScript, variables store information.</li>
+		<li><strong>Conditional statements:</strong> Control the flow of code execution based on certain conditions.
+		</li>
+		<li><strong>Loops:</strong> Repeat code blocks a specific number of times.</li>
+		<li><strong>Functions:</strong> Reusable blocks of code like in JavaScript.</li>
+		<li><strong>Database access:</strong> PHP can connect to databases (like MySQL) to retrieve and store data.</li>
+	</ul>
+
+	</div>
+
+
+	<h2 style="display:inline;padding-right:50px;"><b>5. Node.js</b></h2><img src="img/nodejs.png" alt="html" srcset=""
+		class="images">
+	<p>A JavaScript runtime environment that allows you to run JavaScript code outside of web browsers. Node.js is
+		particularly useful for building real-time applications, web servers, and backend services. It's rapidly gaining
+		popularity due to its ability to create scalable and efficient web applications.</p>
+
+    <p class="tutorial-buttons">
+        <button class="btn btn-primary btn-sm view-on-site-btn" data-video-id="TlB_eWDSMt4" data-lang-name="Node.js">
+            <i class="fas fa-play-circle"></i> View on Site
+        </button>
+        <a href="https://youtu.be/TlB_eWDSMt4?si=vuwuS97nQhFf3Z87" target="_blank" class="btn btn-danger btn-sm">
+            <i class="fab fa-youtube"></i> Open in New Tab
+        </a>
+    </p>
+    <div class="hh" style="padding:30px;">
+		<h2><b>Understanding Front-end and Back-end Development</b></h2>
+		<p>Web development can be broadly categorized into front-end and back-end development:</p>
+
+		<h3>Front-end Development:</h3>
+		<p>Focuses on the user-facing aspects of a website, including the design, layout, and interactivity that users
+			see and interact with. HTML, CSS, and JavaScript are the primary tools for front-end development.</p>
+
+		<h3>Back-end Development:</h3>
+		<p>Deals with the server-side logic of a website. It's responsible for handling data processing, database
+			interactions, and server-side functionality.</p>
+	</div>
+	<div>
+		<center>
+			<img src="img/fb.png" class="img-fluid" style="display:block;margin:auto;width:60%;">
+		</center>
+	</div>
+
+
+	<div class="hh" style="padding:30px;">
+
+		<h1>Web Development Concepts</h1>
+
+		<h1>1. Databases:</h1>
+		<p>Organized collections of structured data, often stored electronically on computer systems.</p>
+		<p>Websites use databases to store various information:</p>
+		<ul>
+			<li>User accounts (usernames, passwords, preferences)</li>
+			<li>Product details (descriptions, prices, images)</li>
+			<li>Blog posts (content, titles, authors, comments)</li>
+			<li>E-commerce transactions (order history, customer details)</li>
+		</ul>
+		<p>Different types of databases exist, each suited for specific needs:</p>
+		<ul>
+			<li>Relational databases: Organize data in interconnected tables with defined relationships (e.g., MySQL,
+				PostgreSQL)</li>
+			<li>NoSQL databases: Offer more flexibility for storing unstructured or semi-structured data (e.g., MongoDB,
+				Couchbase)</li>
+		</ul>
+		<p>Accessing and manipulating databases requires:</p>
+		<ul>
+			<li>Database Management Systems (DBMS): Software applications that allow users to create, manage, and
+				interact with databases (e.g., phpMyAdmin for MySQL)</li>
+			<li>Structured Query Language (SQL): A standardized language for querying and manipulating data in
+				relational databases.</li>
+		</ul>
+		<br>
+		<img src="img/database.jpg" style="width:40%; display:block;margin:auto;">
+		<h1>2. APIs (Application Programming Interfaces):</h1>
+		<p>Act as messengers between different applications or components.</p>
+		<p>Provide a way for websites and applications to:</p>
+		<ul>
+			<li>Access data from various sources, including databases.</li>
+			<li>Exchange data with other applications or services.</li>
+		</ul>
+		<p>Follow defined protocols (like REST) to ensure smooth communication between applications.</p>
+		<p>Examples of APIs used in web development:</p>
+		<ul>
+			<li>Social media APIs: Allow websites to integrate social media features like logins or sharing buttons.
+			</li>
+			<li>Payment APIs: Facilitate online payments by connecting websites to payment gateways (e.g., Stripe,
+				PayPal).</li>
+			<li>Weather APIs: Provide access to real-time weather data for integration into weather applications or
+				websites.</li>
+		</ul>
+
+		<h1>3. Frontend vs Backend Development:</h1>
+		<p>Frontend development: Focuses on the user-facing part of a website, the elements users interact with
+			directly.</p>
+		<p>Common frontend technologies:</p>
+		<ul>
+			<li>HTML: Provides the basic structure and content of a webpage.</li>
+			<li>CSS: Controls the visual appearance of the webpage (layout, fonts, colors).</li>
+			<li>JavaScript: Adds interactivity and dynamic behavior to the webpage (animations, form validation).</li>
+		</ul>
+		<p>Backend development: Handles the server-side logic of a website, the part users don't directly see.</p>
+		<p>Common backend technologies:</p>
+		<ul>
+			<li>Server-side scripting languages: Like PHP, Python, Node.js, used to process user requests, interact with
+				databases, and generate dynamic content.</li>
+			<li>Web frameworks: Provide pre-built libraries and functionalities to streamline backend development (e.g.,
+				Django, Laravel, Express.js).</li>
+		</ul>
+
+		<h1>4. Fullstack Frameworks:</h1>
+		<p>Streamline web development by offering a comprehensive set of tools and libraries for both frontend and
+			backend development.</p>
+		<p>Benefits of using fullstack frameworks:</p>
+		<ul>
+			<li>Faster development: Pre-built components and functionalities reduce development time.</li>
+			<li>Code consistency: Frameworks enforce coding standards and conventions, leading to cleaner and more
+				maintainable code.</li>
+			<li>Larger developer community: Many frameworks have active communities, providing support and resources.
+			</li>
+		</ul>
+		<p>Popular fullstack frameworks:</p>
+		<ul>
+			<li>Ruby on Rails (Ruby): High-level framework known for rapid development and "convention over
+				configuration" approach.</li>
+			<li>Django (Python): Secure and scalable framework with a focus on code readability and maintainability.
+			</li>
+			<li>Laravel (PHP): Powerful framework offering expressive syntax and a rich ecosystem of packages.</li>
+			<li>MEAN Stack (MongoDB, Express.js, Angular, Node.js): A combination of JavaScript-based technologies
+				popular for building modern single-page applications.</li>
+		</ul>
+		<img src="img/mern.png" style="width:40%; display:block;margin:auto;">
+		<h1>5. Other Web Development Considerations:</h1>
+		<p>Version Control Systems (VCS): Like Git, help developers:</p>
+		<ul>
+			<li>Track changes made to code over time.</li>
+			<li>Collaborate effectively on projects.</li>
+			<li>Revert to previous versions if needed.</li>
+		</ul>
+		<p>Content Delivery Networks (CDNs): Improve website performance by:</p>
+		<ul>
+			<li>Geographically distributing static content (images, JavaScript files) across multiple servers.</li>
+			<li>Ensuring faster loading times for users in different locations.</li>
+		</ul>
+		<p>Security: Protecting user data and preventing website vulnerabilities is crucial. Developers use various
+			practices:</p>
+		<ul>
+			<li>Secure coding techniques to prevent common attacks like SQL injection and cross-site scripting (XSS).
+			</li>
+			<li>User authentication and authorization mechanisms to control access to sensitive data.</li>
+			<li>Regular security updates and vulnerability patching to keep websites secure.</li>
+		</ul>
+
+
+
+
+
+		<div id="service">
+
+			<div class="container-fluid padding">
+				<div class="row welcome text-center">
+					<div class="col-12">
+						<h1 class="display-4">Services</h1>
+					</div>
+					<hr>
+				</div>
+			</div>
+
+			<div class="container-fluid padding">
+				<div class="row text-center padding">
+					<div class="col-xs-12 col-sm-6 col-md-3">
+						<div class="card">
+							<img class="card-img-top" src="img/iot.jpg">
+							<div class="card-body">
+								<h4 class="card-title">Internet of Things</h4>
+								<p class="card-text">The internet of things, or IoT, is a system of interrelated
+									computing devices, mechanical and digital machines, objects, animals or people that
+									are provided with unique identifiers (UIDs) and the ability to transfer data over a
+									network without requiring human-to-human or human-to-computer interaction.</p>
+								<a target="_blank" href="https://en.wikipedia.org/wiki/Internet_of_things"
+									class="btn btn-outline-secondary">Learn More</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-3">
+						<div class="card">
+							<img class="card-img-top" src="img/webdev.jpg">
+							<div class="card-body">
+								<h4 class="card-title">Web Development</h4>
+								<p class="card-text">Web development is the work involved in developing a web site for
+									the Internet or an intranet. Web development can range from developing a simple
+									single static page of plain text to complex web-based internet applications,
+									electronic businesses, and social network services.</p>
+								<a target="_blank" href="https://en.wikipedia.org/wiki/Web_development"
+									class="btn btn-outline-secondary">Learn More</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-6 col-md-3">
+						<div class="card">
+							<img class="card-img-top" src="img/android.jpg">
+							<div class="card-body">
+								<h4 class="card-title">Android Development</h4>
+								<p class="card-text">Android software development is the process by which new
+									applications are created for Android. Google states that "Android apps can be
+									written using Kotlin, Java, and C++ languages" using the Android software
+									development kit, while using other languages is also possible.</p>
+								<a target="_blank" href="https://en.wikipedia.org/wiki/Android_software_development"
+									class="btn btn-outline-secondary">Learn More</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-6 col-md-3">
+						<div class="card">
+							<img class="card-img-top" src="img/Blockchain.jpg">
+							<div class="card-body">
+								<h4 class="card-title">Blockchain Development</h4>
+								<p class="card-text">A blockchain, originally block chain, is a growing list of records,
+									called blocks, that are linked using cryptography. Each block contains a
+									cryptographic hash of the previous block, a timestamp, and transaction data. By
+									design, a blockchain is resistant to modification of the data. </p>
+								<a target="_blank" href="https://en.wikipedia.org/wiki/Blockchain"
+									class="btn btn-outline-secondary">Learn More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<hr class="my-4">
+			</div>
+
+			<div id="team">
+
+				<div class="container-fluid padding">
+					<div class="row welcome text-center">
+						<div class="col-12">
+							<h1 class="display-4">Meet The Team</h1>
+						</div>
+						<hr>
+					</div>
+				</div>
+
+				<div class="container-fluid padding">
+					<div class="row padding">
+						<div class="col-xs-12 col-sm-6 col-md-4">
+							<div class="card">
+								<img class="card-img-top img-circle" src="people/mithesh2.jpg">
+								<div class="card-body">
+									<h4 class="card-title">Mithesh Shetty</h4>
+									<p class="card-text">Mithesh is a Web Designer and Computer Science and Engineering
+										student.</p>
+									<div class="container-fluid padding">
+										<div class="row text-center padding">
+											<div class="col-12 social padding">
+												<a target="_blank" href="https://www.linkedin.com/in/mithesh-shetty-8b309228b/"><i class="fab fa-linkedin"></i></a>
+												<a target="_blank" href="https://www.instagram.com/mithesh_shettyy/"><i class="fab fa-instagram"></i></a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-xs-12 col-sm-6 col-md-4">
+							<div class="card">
+								<img class="card-img-top img-circle" src="people/mohith1.jpg">
+								<div class="card-body">
+									<h4 class="card-title">Mohith L A</h4>
+									<p class="card-text">Mohith is an Internet Enterprenuer and Computer Science and
+										Engineering student..</p>
+									<div class="container-fluid padding">
+										<div class="row text-center padding">
+											<div class="col-12 social padding">
+												<a target="_blank" href="https://www.instagram.com/mohith_24__/"><i class="fab fa-instagram"></i></a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-xs-12 col-sm-6 col-md-4">
+							<div class="card">
+								<img class="card-img-top img-circle" src="people/Moulya1.jpg">
+								<div class="card-body">
+									<h4 class="card-title">Moulya Shetty</h4>
+									<p class="card-text">Moulya is a Programmer and Computer Science and Engineering
+										student.</p>
+									<div class="container-fluid padding">
+										<div class="row text-center padding">
+											<div class="col-12 social padding">
+												<a target="_blank" href="https://www.instagram.com/moulya._shetty/"><i class="fab fa-instagram"></i></a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="container-fluid padding">
+				<div class="row padding">
+					<div class="col-xs-12 col-sm-6 col-md-4">
+						<div class="card">
+							<img class="card-img-top img-circle" src="people/Nibha1.jpg">
+							<div class="card-body">
+								<h4 class="card-title">Nibha</h4>
+								<p class="card-text">Nibha is a Software Developer and Computer Science and Engineering
+									student.</p>
+								<div class="container-fluid padding">
+									<div class="row text-center padding">
+										<div class="col-12 social padding">
+											<a target="_blank" href="https://www.instagram.com/nibhashetty7/"><i class="fab fa-instagram"></i></a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-4">
+						<div class="card">
+							<img class="card-img-top img-circle" src="people/Milindh1.jpg">
+							<div class="card-body">
+								<h4 class="card-title">Milindh</h4>
+								<p class="card-text">Milindh is a UI/UX Designer and Computer Science and Engineering
+									student.</p>
+								<div class="container-fluid padding">
+									<div class="row text-center padding">
+										<div class="col-12 social padding">
+											<a target="_blank" href="https://www.instagram.com/milindh_animeart/"><i class="fab fa-instagram"></i></a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-4">
+						<div class="card">
+							<img class="card-img-top img-circle" src="people/vikas1.jpg">
+							<div class="card-body">
+								<h4 class="card-title">Vikas</h4>
+								<p class="card-text">Vikas is a Database Administrator and Computer Science and
+									Engineering student.</p>
+								<div class="container-fluid padding">
+									<div class="row text-center padding">
+										<div class="col-12 social padding">
+											<a target="_blank" href="https://www.instagram.com/vikas___naik/"><i class="fab fa-instagram"></i></a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<footer>
+			<div class="container-fluid padding">
+				<div class="row text-center">
+					<div class="col-md-4">
+						<h1>CODE.it</h1>
+						<hr class="light">
+						<p>+91 0000000000</p>
+						<p>codeit@gmail.com</p>
+						<p>NMAMIT</p>
+						<p>Udupi, Karnataka, 576101</p>
+					</div>
+					<div class="col-md-4">
+
+						<h5></h5>
+
+						<p></p>
+						<p></p>
+						<p></p>
+					</div>
+					<div class="col-md-4">
+						<hr class="light">
+						<h5>Our Services</h5>
+						<hr class="light">
+						<p>Internet Of Things</p>
+						<p>Web Development</p>
+						<p>Android Development</p>
+						<p>Blockchain Development</p>
+					</div>
+					<div class="col-12">
+						<hr class="light-100">
+						<h5>&copy; CODE.it</h5>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+	<script src="script.js"></script>
+</body>
+
+</html>
